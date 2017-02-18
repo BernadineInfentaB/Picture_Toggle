@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/roses"
+    tools:context="com.example.ctadmin.myapplication.MainActivity"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beach" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         SUN SET!           "
+        android:textColor="#D0F022"
+        android:id="@+id/textView" />
+
+
+    <Spinner
+        android:id="@+id/sort_by_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="CLICK ON ME"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="265dp"
+        android:layout_height="17dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/night"
+        android:layout_weight="0.66" />
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="266dp"
+        android:layout_height="57dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/day"
+        android:layout_weight="0.28" />
+
+    <Button
+        android:text="day and night"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+
+</LinearLayout>
